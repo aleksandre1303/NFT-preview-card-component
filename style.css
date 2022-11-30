@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  background: #0d192c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  max-width: 305px;
+  padding: 24px;
+  border-radius: 15px;
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card:hover .overlay {
+  opacity: 0.6;
+}
+
+.card:hover .inner__text h3 {
+  color: #00fff8;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 8px;
+  background: #00fff8;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.overlay__view-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inner__image img {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 8px;
+}
+
+.inner__text h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  transition: 0.6s;
+}
+
+.inner__text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8bacd9;
+  margin: 16px 0px 24px;
+}
+
+.price__deadline-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__eth-content {
+  display: flex;
+  align-items: center;
+}
+
+.price__eth p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+  margin: 0 7px 2px;
+}
+
+.price__deadline-content {
+  display: flex;
+  align-items: center;
+}
+
+.text__deadline p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  margin: 0 9px 2px;
+}
+
+.profile__img-name {
+  display: flex;
+  align-items: center;
+}
+
+.profile__avatar-img img {
+  height: 33px;
+}
+
+.line {
+  background: #2e405a;
+  width: 301px;
+  height: 1px;
+  margin: 24px 0 16px;
+}
+
+.avatar__name p {
+  color: #8bacd9;
+  margin-left: 16px;
+}
+
+.avatar__name span {
+  color: #fff;
+}
