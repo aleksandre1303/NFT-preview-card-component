@@ -16,7 +16,15 @@ Users should be able to:
 
 ### Screenshot
 
-<img width="1440" alt="Present" src="https://user-images.githubusercontent.com/67371847/204705482-7deb5a5b-ae7a-4177-a1e5-df5e3da9d16c.png">
+<img width="1440" alt="Screenshot 2022-11-30 at 08 16 24" src="https://user-images.githubusercontent.com/67371847/204706380-83a0fb3b-234e-4124-b40f-1394704cff6d.png">
+
+
+### Hover Animation
+
+
+https://user-images.githubusercontent.com/67371847/204706395-4013eca1-f5a5-4088-ab71-aa41a3e5e209.mov
+
+
 
 
 ### Links
